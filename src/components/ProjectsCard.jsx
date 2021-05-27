@@ -10,9 +10,9 @@ import {
 
 import { Fade } from 'react-reveal';
 
-const ProjectsCard = ({ data }) => {
+const ProjectsCard = ({ data, index }) => {
     return (
-        <Fade bottom duration={1000} distance="40px">
+        <Fade left={index % 2 === 0 ? true : false} right={index % 2 === 0 ? false : true} duration={1000}>
             <Card className="shadow-lg--hover shadow mt-4">
                 <CardBody>
                     <Row lg="12">

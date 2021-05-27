@@ -13,7 +13,7 @@ const Projects = () => {
     return ( 
         <section className="section section-lg">
             <Container>
-              <Fade bottom duration={500}>
+              <Fade left duration={1000}>
               <div className="d-flex p-4">
                     <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
@@ -26,8 +26,8 @@ const Projects = () => {
                 </div>
                 <Row className="row-grid align-items-center">
                     <Col lg='12'>
-                    {projects.map(data => {
-                            return <ProjectsCard data={data} />
+                    {projects.map((data, index) => {
+                            return <ProjectsCard data={data} index={index} />;
                         })}
                     </Col>
                 </Row>

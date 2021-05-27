@@ -70,48 +70,24 @@ const Navigation = () => {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href={socialLinks.facebook}
-                      target="_blank"
-                    >
-                      <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href={socialLinks.instagram}
-                      target="_blank"
-                    >
-                      <i className="fa fa-instagram" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href={socialLinks.twitter}
-                      target="_blank"
-                    >
-                      <i className="fa fa-twitter-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Twitter
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
                       href={socialLinks.github}
                       target="_blank"
                     >
                       <i className="fa fa-github" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Github
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href={socialLinks.gmail}
+                      target="_blank"
+                    >
+                      <i className="fa fa-google" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Gmail
                       </span>
                     </NavLink>
                   </NavItem>

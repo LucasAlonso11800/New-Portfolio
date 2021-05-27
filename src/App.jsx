@@ -4,9 +4,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Greetings from "./containers/Greetings";
 import Skills from "./containers/Skills";
-import Proficiency from './containers/Proficiency';
-import Education from "./containers/Education";
-import Experience from './containers/Experience';
+// import Education from "./containers/Education";
+// import Experience from './containers/Experience';
 import Projects from './containers/Projects';
 import GithubProfile from './containers/GithubProfile'
 const App = () => {
@@ -18,9 +17,8 @@ const App = () => {
                         <Navigation />
                         <Greetings/>
                         <Skills />
-                        <Proficiency />
-                        <Education />
-                        <Experience />
+                        {/* <Education />
+                        <Experience /> */}
                         <Projects />
                         <GithubProfile />
                     </>

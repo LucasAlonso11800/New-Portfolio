@@ -7,6 +7,7 @@ import {
 } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
 import { Fade } from 'react-reveal';
+import Col from 'reactstrap/lib/Col';
 
 const Projects = () => {
     return ( 
@@ -24,11 +25,11 @@ const Projects = () => {
                     </div>
                 </div>
                 <Row className="row-grid align-items-center">
-                    {
-                        projects.map(data => {
+                    <Col lg='12'>
+                    {projects.map(data => {
                             return <ProjectsCard data={data} />
-                        })
-                    }
+                        })}
+                    </Col>
                 </Row>
               </Fade>
             </Container>

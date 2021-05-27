@@ -1,210 +1,173 @@
 import emoji from 'react-easy-emoji';
 
-import googlelogo from './assets/img/icons/common/google.svg'
-import github from './assets/img/icons/common/github.svg'
-import airbnb from './assets/img/icons/common/airbnbLogo.png'
+import Tennis from './assets/img/projects/Tennis.png';
+import Covid from './assets/img/projects/Covid.png';
+import Taylor from './assets/img/projects/Taylor.png';
+import ArmaTuEquipo from './assets/img/projects/Arma-tu-equipo.png';
+import BackgroundGenerator from './assets/img/projects/Background-generator.png';
+import Trivia from './assets/img/projects/Trivia.png';
 
 export const greetings = {
-    "name": "Hanzla Tauqeer",
-    "title": "Hi all, I'm Hanzla",
-    "description": "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-    "resumeLink": "https://cv.hanzla.ga"
+    "name": "Lucas Alonso",
+    "title": "Hi everyone, I'm Lucas",
+    "description": "I'm a self-taught Full-Stack Developer who works everyday to become a better programmer and get the job of my dreams. I've been able to learn a lot a different technologies and create personal projects around my things of my interest",
+    "resumeLink": "/"
 }
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+    githubUserName: 'LucasAlonso11800',
 };
 
 export const contact = {
-  
+
 }
 
 export const socialLinks = {
-    "facebook": "https://www.facebook.com/1hanzla100",
-    "instagram": "https://www.instagram.com/1hanzla100",
-    "twitter": "https://twitter.com/1hanzla100",
-    "github": "https://github.com/1hanzla100",
-    "linkedin": "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/"
+    "github": "https://github.com/LucasAlonso11800",
+    "linkedin": "https://www.linkedin.com/in/lucas-alonso-47a2ba20a/",
+    "gmail": "mailto:lucasalonso11800@gmail.com"
 }
 
 export const skillsSection = {
-    title: 'What I do',
-    subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+    title: 'What do I do?',
+    subTitle: 'Put all my skills to work to create the best projects',
     skills: [
-      emoji(
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
-      ),
-      emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
-      emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
-      ),
+        emoji(
+            '⚡ Develop responsive User Interfaces for web applications'
+        ),
+        emoji('⚡ Power them with third party APIs or with my own backend designs'),
+        emoji(
+            '⚡ Landing page design, Responsive design, Animations'
+        ),
     ],
-    
+
     softwareSkills: [
-      {
-        skillName: 'html-5',
-        fontAwesomeClassname: 'vscode-icons:file-type-html',
-      },
-      {
-        skillName: 'css3',
-        fontAwesomeClassname: 'vscode-icons:file-type-css',
-      },
-      {
-        skillName: 'sass',
-        fontAwesomeClassname: 'logos:sass',
-      },
-      {
-        skillName: 'JavaScript',
-        fontAwesomeClassname: 'logos:javascript',
-      },
-      {
-        skillName: 'TypeScript',
-        fontAwesomeClassname: 'logos:typescript-icon',
-      },
-      {
-        skillName: 'reactjs',
-        fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
-      },
-      {
-        skillName: 'nodejs',
-        fontAwesomeClassname: 'logos:nodejs-icon',
-      },
-      {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
-      },
-      {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
-      },
-      {
-        skillName: 'npm',
-        fontAwesomeClassname: 'vscode-icons:file-type-npm',
-      },
-      {
-        skillName: 'sql-database',
-        fontAwesomeClassname: 'vscode-icons:file-type-sql',
-      },
-      {
-        skillName: 'mongoDB',
-        fontAwesomeClassname: 'vscode-icons:file-type-mongo',
-      },
-      {
-        skillName: 'aws',
-        fontAwesomeClassname: 'logos:aws',
-      },
-      {
-        skillName: 'firebase',
-        fontAwesomeClassname: 'logos:firebase',
-      },
-      {
-        skillName: 'python',
-        fontAwesomeClassname: 'logos:python',
-      },
-      {
-        skillName: 'git',
-        fontAwesomeClassname: 'logos:git-icon',
-      },
-      {
-        skillName: 'docker',
-        fontAwesomeClassname: 'logos:docker-icon',
-      },
+        {
+            skillName: 'html-5',
+            fontAwesomeClassname: 'vscode-icons:file-type-html',
+        },
+        {
+            skillName: 'css3',
+            fontAwesomeClassname: 'vscode-icons:file-type-css',
+        },
+        {
+            skillName: 'JavaScript',
+            fontAwesomeClassname: 'logos:javascript',
+        },
+        {
+            skillName: 'Reactjs',
+            fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+        },
+        {
+            skillName: 'Nodejs',
+            fontAwesomeClassname: 'logos:nodejs-icon',
+        },
+        {
+            skillName: 'npm',
+            fontAwesomeClassname: 'vscode-icons:file-type-npm',
+        },
+        {
+            skillName: 'MongoDB',
+            fontAwesomeClassname: 'vscode-icons:file-type-mongo',
+        },
+        {
+            skillName: 'JSON',
+            fontAwesomeClassname: 'vscode-icons:file-type-json',
+        },
+        {
+            skillName: 'git',
+            fontAwesomeClassname: 'logos:git-icon',
+        },
+        {
+            skillName: 'VSCode',
+            fontAwesomeClassname: 'vscode-icons:file-type-vscode',
+        },
     ],
 }
-
-
-export const SkillBars = [
-    {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90', //Insert relative proficiency in percentage
-    },
-    {
-      Stack: 'Backend',
-      progressPercentage: '70',
-    },
-    {
-      Stack: 'Programming',
-      progressPercentage: '60',
-    },
-  ]
-
-export const educationInfo = [
-    {
-      schoolName: 'Harvard University',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
-    },
-    {
-      schoolName: 'Harvard',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetfgur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
-    },
-    {
-      schoolName: 'Stanford University',
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit'],
-    },
-]
-
-export const experience = [
-  {
-    role: 'Software Engineer',
-    company: 'Google',
-    companylogo: googlelogo,
-    date: 'June 2018 – Present',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    ],
-  },
-  {
-    role: 'Front-End Developer',
-    company: 'Github',
-    companylogo: github,
-    date: 'May 2017 – May 2018',
-    desc:
-      'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    role: 'Software Engineer Intern',
-    company: 'Airbnb',
-    companylogo: airbnb,
-    date: 'Jan 2015 – Sep 2015',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-]
+//EDUCATION
+// EXPERIENCE
 
 export const projects = [
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    link: {
-      name: "hanzla",
-      url: "kasjfklsdjf"
-    }
-  }
-]
+    {
+        name: "Tennis World",
+        desc: "Tennis World is an application where the user can find everything related to this beautiful sport. From rankings to tournaments and the most recent news. I designed this app with React and Styled components, also adding a backend with Node, Express, MongoDB and Mongoose.",
+        api: "Featuring Tennis Live Data API and News API",
+        img: Tennis,
+        link: {
+            name: "Live Project",
+            url: "https://lucasalonso-tennis-world.netlify.app/"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Tennis-App"
+        }
+    },
+    {
+        name: "Covid Tracker",
+        desc: "This React application displays charts with the most recent info about the pandemic. The design was made with Material-UI and the charts with the library Charts.js.",
+        api: "Featuring Narrativa's COVID-19 API",
+        img: Covid,
+        link: {
+            name: "Live Project",
+            url: "https://lucasalonso-covid-tracker.netlify.app"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Covid-tracker"
+        }
+    },
+    {
+        name: "Taylor Swift Survey",
+        desc: "My second MERN Stack and Material-UI application. Here the users must answer 5 personal opinion questions about each album of Taylor Swift's carrer. More than 500 people from all over the world took part of the survey via Reddit",
+        img: Taylor,
+        link: {
+            name: "Live Project",
+            url: "https://taylor-survey.netlify.app/"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Taylor-survey"
+        }
+    },
+    {
+        name: "Arma tu equipo",
+        desc: "This React application lets the user play to be a football coach and share his/her ideal formation of the Argentinian National Team, River Plate and Boca Jrs.",
+        img: ArmaTuEquipo,
+        link: {
+            name: "Live Project",
+            url: "https://lucasalonso-arma-tu-equipo.netlify.app"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Arma-tu-equipo"
+        }
+    },
+    {
+        name: "Background generator",
+        desc: "A simple mosaic generator where the user picks the tonality and later can download the result. I built this one with only HTML, CSS and Vanilla JavaScript",
+        img: BackgroundGenerator,
+        link: {
+            name: "Live Project",
+            url: "https://mosaic-background-generator.netlify.app"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Mosaic-background-generator"
+        }
+    },
+    {
+        name: "Trivia",
+        desc: "Do you like Q&A games? This is your app then. Try your best and compare yourself with other players. Styled Components and the MERN Stack helped me build this app.",
+        api: "Featuring Open TriviaDB API",
+        img: Trivia,
+        link: {
+            name: "Live Project",
+            url: "https://lucasalonso-triviaapp.netlify.app/"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Trivia"
+        }
+    },
+    
+];

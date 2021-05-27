@@ -10,14 +10,13 @@ import { Fade } from 'react-reveal';
 import Col from 'reactstrap/lib/Col';
 
 const Projects = () => {
-    return ( 
+    return (
         <section className="section section-lg">
             <Container>
-              <Fade left duration={1000}>
-              <div className="d-flex p-4">
+                <div className="d-flex p-4">
                     <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                        <i className="ni ni-laptop text-info" />
+                            <i className="ni ni-laptop text-info" />
                         </div>
                     </div>
                     <div className="pl-4">
@@ -26,15 +25,14 @@ const Projects = () => {
                 </div>
                 <Row className="row-grid align-items-center">
                     <Col lg='12'>
-                    {projects.map((data, index) => {
+                        {projects.map((data, index) => {
                             return <ProjectsCard data={data} index={index} />;
                         })}
                     </Col>
                 </Row>
-              </Fade>
             </Container>
-          </section>
-     );
+        </section>
+    );
 }
- 
+
 export default Projects;

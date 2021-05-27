@@ -20,7 +20,7 @@ const Skills = () => {
                 <h1 className="h1">{skillsSection.title}</h1>
                 <p className="lead">{skillsSection.subTitle}</p>
                 <Row>
-                    <Col lg="6">
+                    <Col lg="6" className="mb-5">
                         <DisplayLottie animationData={webdev} />
                     </Col>
                     <Col lg="6">

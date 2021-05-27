@@ -28,9 +28,9 @@ const ProjectsCard = ({ data }) => {
                                     <p className="description">
                                         {data.api}
                                     </p>
-                                    <div className="mb-4">
+                                    <div>
                                         <Button
-                                            className="btn-neutral btn-icon"
+                                            className="btn-neutral btn-icon mb-4"
                                             color="primary"
                                             href={data.link.url}
                                             target="_blank"
@@ -43,7 +43,7 @@ const ProjectsCard = ({ data }) => {
                                             </span>
                                         </Button>
                                         <Button
-                                            className="btn-neutral btn-icon"
+                                            className="btn-neutral btn-icon mb-4"
                                             color="primary"
                                             href={data.git.url}
                                             target="_blank"

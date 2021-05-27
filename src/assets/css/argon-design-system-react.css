@@ -13448,8 +13448,9 @@ textarea[resize="horizontal"] {
   padding-bottom: 8rem; }
 
 .section-lg {
-  padding-top: 6rem;
-  padding-bottom: 6rem; }
+  padding-top: 2rem;
+  padding-bottom: 2rem; 
+}
 
 .section-sm {
   padding-top: 2rem;

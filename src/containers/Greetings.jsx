@@ -6,7 +6,6 @@ import code from '../assets/lottie/coding.json';
 import { Fade } from 'react-reveal';
 
 import {
-  Button,
   Container,
   Row,
   Col

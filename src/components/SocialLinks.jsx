@@ -39,7 +39,7 @@ const SocialLinks = () => {
                     </span>
                 </Button>
             </div>
-            <h6 className="mt-4 text-white">lucasalonso11800@gmail.com</h6>
+            <h6 className="mt-4 text-white"><b>My email: </b>lucasalonso11800@gmail.com</h6>
         </>
     );
 }

@@ -43,11 +43,11 @@ export const skillsSection = {
 
     softwareSkills: [
         {
-            skillName: 'html-5',
+            skillName: 'HTML',
             fontAwesomeClassname: 'vscode-icons:file-type-html',
         },
         {
-            skillName: 'css3',
+            skillName: 'CSS',
             fontAwesomeClassname: 'vscode-icons:file-type-css',
         },
         {
@@ -55,11 +55,11 @@ export const skillsSection = {
             fontAwesomeClassname: 'logos:javascript',
         },
         {
-            skillName: 'Reactjs',
+            skillName: 'React',
             fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
         },
         {
-            skillName: 'Nodejs',
+            skillName: 'Node',
             fontAwesomeClassname: 'logos:nodejs-icon',
         },
         {
@@ -118,7 +118,7 @@ export const projects = [
     },
     {
         name: "Taylor Swift Survey",
-        desc: "My second MERN Stack and Material-UI application. Here the users must answer 5 personal opinion questions about each album of Taylor Swift's carrer. More than 500 people from all over the world took part of the survey via Reddit",
+        desc: "A MERN Stack and Material-UI application. Here the users must answer 5 personal opinion questions about each album of Taylor Swift's carrer. More than 500 people from all over the world took part of the survey via Reddit",
         img: Taylor,
         link: {
             name: "Live Project",

@@ -1,5 +1,7 @@
 import emoji from 'react-easy-emoji';
 
+import Hooli from './assets/img/Hooli.png'
+
 import Tennis from './assets/img/projects/Tennis.png';
 import Covid from './assets/img/projects/Covid.png';
 import Taylor from './assets/img/projects/Taylor.png';
@@ -10,7 +12,7 @@ import Trivia from './assets/img/projects/Trivia.png';
 export const greetings = {
     "name": "Lucas Alonso",
     "title": "Hi everyone, I'm Lucas",
-    "description": "I'm a self-taught Full-Stack Developer who works everyday to become a better programmer and get the job of my dreams. I've been able to learn a lot a different technologies and create personal projects around my things of my interest",
+    "description": "I'm a self-taught Full-Stack Developer who works everyday to become a better programmer. I've been able to learn a lot a different technologies that have given me jobs and let me create personal projects around my things of my interest",
     "resumeLink": "/"
 }
 
@@ -43,11 +45,11 @@ export const skillsSection = {
 
     softwareSkills: [
         {
-            skillName: 'HTML',
+            skillName: 'HTML5',
             fontAwesomeClassname: 'vscode-icons:file-type-html',
         },
         {
-            skillName: 'CSS',
+            skillName: 'CSS3',
             fontAwesomeClassname: 'vscode-icons:file-type-css',
         },
         {
@@ -55,24 +57,40 @@ export const skillsSection = {
             fontAwesomeClassname: 'logos:javascript',
         },
         {
+            skillName: 'TypeScript',
+            fontAwesomeClassname: 'vscode-icons:file-type-typescript',
+        },
+        {
             skillName: 'React',
             fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
         },
+        // {
+        //     skillName: 'NextJS',
+        //     fontAwesomeClassname: 'vscode-icons:file-type-next',
+        // },
         {
-            skillName: 'Node',
+            skillName: 'NodeJS',
             fontAwesomeClassname: 'logos:nodejs-icon',
-        },
-        {
-            skillName: 'npm',
-            fontAwesomeClassname: 'vscode-icons:file-type-npm',
         },
         {
             skillName: 'MongoDB',
             fontAwesomeClassname: 'vscode-icons:file-type-mongo',
         },
         {
-            skillName: 'JSON',
-            fontAwesomeClassname: 'vscode-icons:file-type-json',
+            skillName: 'MySQL',
+            fontAwesomeClassname: 'vscode-icons:file-type-sql',
+        },
+        {
+            skillName: 'GraphQL',
+            fontAwesomeClassname: 'vscode-icons:file-type-graphql'
+        },
+        {
+            skillName: 'REST',
+            fontAwesomeClassname: 'vscode-icons:file-type-rest'
+        },
+        {
+            skillName: 'npm',
+            fontAwesomeClassname: 'vscode-icons:file-type-npm',
         },
         {
             skillName: 'git',
@@ -84,8 +102,18 @@ export const skillsSection = {
         },
     ],
 }
+
 //EDUCATION
-// EXPERIENCE
+
+export const experience = [
+    {
+        company: 'Airata',
+        img: Hooli,
+        role: 'React Developer',
+        date: 'Juni 2021 - Current',
+        desc: "I work in the development of interfaces for backoffice management in the Hooli application."
+    }
+];
 
 export const projects = [
     {

@@ -5,27 +5,28 @@ import Navigation from "./components/Navigation";
 import Greetings from "./containers/Greetings";
 import Skills from "./containers/Skills";
 // import Education from "./containers/Education";
-// import Experience from './containers/Experience';
+import Experience from './containers/Experience';
 import Projects from './containers/Projects';
-import GithubProfile from './containers/GithubProfile'
+import GithubProfile from './containers/GithubProfile';
+
 const App = () => {
-    return ( 
+    return (
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact render={props => (
                     <>
                         <Navigation />
-                        <Greetings/>
+                        <Greetings />
                         <Skills />
-                        {/* <Education />
-                        <Experience /> */}
+                        {/* <Education /> */}
+                        <Experience />
                         <Projects />
                         <GithubProfile />
                     </>
-                )}/>
+                )} />
             </Switch>
         </BrowserRouter>
-     );
+    );
 }
- 
+
 export default App;

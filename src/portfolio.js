@@ -1,13 +1,13 @@
 import emoji from 'react-easy-emoji';
 
-import Hooli from './assets/img/Hooli.png'
+import Hooli from './assets/img/Hooli.png';
 
 import Tennis from './assets/img/projects/Tennis.png';
 import Covid from './assets/img/projects/Covid.png';
 import Taylor from './assets/img/projects/Taylor.png';
 import ArmaTuEquipo from './assets/img/projects/Arma-tu-equipo.png';
-import BackgroundGenerator from './assets/img/projects/Background-generator.png';
-import Trivia from './assets/img/projects/Trivia.png';
+import Minesweeper from './assets/img/projects/Minesweeper.png';
+import SocialMedia from './assets/img/projects/Social-media.png';
 
 export const greetings = {
     "name": "Lucas Alonso",
@@ -39,7 +39,7 @@ export const skillsSection = {
         ),
         emoji('⚡ Power them with third party APIs or with my own backend designs'),
         emoji(
-            '⚡ Landing page design, Responsive design, Animations'
+            '⚡ Landing page design, Responsive design, Animations, Database management'
         ),
     ],
 
@@ -63,6 +63,10 @@ export const skillsSection = {
         {
             skillName: 'React',
             fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+        },
+        {
+            skillName: 'Redux',
+            fontAwesomeClassname: 'logos:redux',
         },
         // {
         //     skillName: 'NextJS',
@@ -111,11 +115,24 @@ export const experience = [
         img: Hooli,
         role: 'React Developer',
         date: 'Juni 2021 - Current',
-        desc: "I work in the development of interfaces for backoffice management in the Hooli application."
+        desc: "I build user interfaces that connect and interact with the database for internal management of the Hooli application. I also periodically have tasks with Node and MySQL."
     }
 ];
 
 export const projects = [
+    {
+        name: "Social Media",
+        desc: "My first big application using Typescript and MySQL. Based freely on Twitter, the users can create accounts, post what they're thinking, comment on posts, like each others posts and comments and upload their profile names and images.",
+        img: SocialMedia,
+        link: {
+            name: "Live Project",
+            url: "https://lucas-alonso-social-media-app.netlify.app/"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Social-media-app"
+        }
+    },
     {
         name: "Tennis World",
         desc: "Tennis World is an application where the user can find everything related to this beautiful sport. From rankings to tournaments and the most recent news. I designed this app with React and Styled components, also adding a backend with Node, Express, MongoDB and Mongoose.",
@@ -145,6 +162,19 @@ export const projects = [
         }
     },
     {
+        name: "Minesweeper",
+        desc: "The classic Minesweeper game written with Typescript and Redux. Pick a difficulty and try to make it into the fastest players.",
+        img: Minesweeper,
+        link: {
+            name: "Live Project",
+            url: "https://lucasalonso-minesweeper.netlify.app/"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Redux-Minesweeper"
+        }
+    },
+    {
         name: "Taylor Swift Survey",
         desc: "A MERN Stack and Material-UI application. Here the users must answer 5 personal opinion questions about each album of Taylor Swift's carrer. More than 500 people from all over the world took part of the survey via Reddit",
         img: Taylor,
@@ -169,33 +199,5 @@ export const projects = [
             name: "GitHub Repository",
             url: "https://github.com/LucasAlonso11800/Arma-tu-equipo"
         }
-    },
-    {
-        name: "Background generator",
-        desc: "A simple mosaic generator where the user picks the tonality and later can download the result. I built this one with only HTML, CSS and Vanilla JavaScript",
-        img: BackgroundGenerator,
-        link: {
-            name: "Live Project",
-            url: "https://mosaic-background-generator.netlify.app"
-        },
-        git: {
-            name: "GitHub Repository",
-            url: "https://github.com/LucasAlonso11800/Mosaic-background-generator"
-        }
-    },
-    {
-        name: "Trivia",
-        desc: "Do you like Q&A games? This is your app then. Try your best and compare yourself with other players. Styled Components and the MERN Stack helped me build this app.",
-        api: "Featuring Open TriviaDB API",
-        img: Trivia,
-        link: {
-            name: "Live Project",
-            url: "https://lucasalonso-triviaapp.netlify.app/"
-        },
-        git: {
-            name: "GitHub Repository",
-            url: "https://github.com/LucasAlonso11800/Trivia"
-        }
-    },
-    
+    }
 ];

@@ -68,10 +68,10 @@ export const skillsSection = {
             skillName: 'Redux',
             fontAwesomeClassname: 'logos:redux',
         },
-        // {
-        //     skillName: 'NextJS',
-        //     fontAwesomeClassname: 'vscode-icons:file-type-next',
-        // },
+        {
+            skillName: 'NextJS',
+            fontAwesomeClassname: 'vscode-icons:file-type-next',
+        },
         {
             skillName: 'NodeJS',
             fontAwesomeClassname: 'logos:nodejs-icon',
@@ -135,16 +135,16 @@ export const projects = [
     },
     {
         name: "Tennis World",
-        desc: "Tennis World is an application where the user can find everything related to this beautiful sport. From rankings to tournaments and the most recent news. I designed this app with React and Styled components, also adding a backend with Node, Express, MongoDB and Mongoose.",
+        desc: "Tennis World is an application where the user can find everything related to this beautiful sport. From rankings to tournaments and the most recent news. I had originally built this app with React and a backend of Node, Express and MongoDB but later on I decided to migrate it to Typescript and NextJS.",
         api: "Featuring Tennis Live Data API and News API",
         img: Tennis,
         link: {
             name: "Live Project",
-            url: "https://lucasalonso-tennis-world.netlify.app/"
+            url: "https://tennis-world-nextjs.vercel.app/"
         },
         git: {
             name: "GitHub Repository",
-            url: "https://github.com/LucasAlonso11800/Tennis-App"
+            url: "https://github.com/LucasAlonso11800/Tennis-World-Nextjs"
         }
     },
     {

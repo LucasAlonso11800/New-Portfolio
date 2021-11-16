@@ -43,6 +43,67 @@ export const skillsSection = {
         ),
     ],
 
+    languages: [
+        {
+            skillName: 'JavaScript',
+            fontAwesomeClassname: 'logos:javascript',
+        },
+        {
+            skillName: 'TypeScript',
+            fontAwesomeClassname: 'vscode-icons:file-type-typescript',
+        },
+    ],
+    frontendSkills: [
+        {
+            skillName: 'HTML5',
+            fontAwesomeClassname: 'vscode-icons:file-type-html',
+        },
+        {
+            skillName: 'CSS3',
+            fontAwesomeClassname: 'vscode-icons:file-type-css',
+        },
+        {
+            skillName: 'React',
+            fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+        },
+        {
+            skillName: 'Redux',
+            fontAwesomeClassname: 'logos:redux',
+        },
+        {
+            skillName: 'NextJS',
+            fontAwesomeClassname: 'vscode-icons:file-type-next',
+        },
+    ],
+    backendSkills: [
+        {
+            skillName: 'NodeJS',
+            fontAwesomeClassname: 'logos:nodejs-icon',
+        },
+        {
+            skillName: 'GraphQL',
+            fontAwesomeClassname: 'vscode-icons:file-type-graphql'
+        },
+        {
+            skillName: 'REST',
+            fontAwesomeClassname: 'vscode-icons:file-type-rest'
+        },
+        {
+            skillName: 'MongoDB',
+            fontAwesomeClassname: 'vscode-icons:file-type-mongo',
+        },
+        {
+            skillName: 'MySQL',
+            fontAwesomeClassname: 'vscode-icons:file-type-sql',
+        },
+    ],
+    versionControlSkills: [
+        {
+            skillName: 'git',
+            fontAwesomeClassname: 'logos:git-icon',
+        },
+    ],
+
     softwareSkills: [
         {
             skillName: 'HTML5',

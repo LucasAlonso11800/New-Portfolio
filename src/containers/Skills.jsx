@@ -24,10 +24,11 @@ const Skills = () => {
                         <DisplayLottie animationData={webdev} />
                     </Col>
                     <Col lg="6">
-                        <div className="d-flex justify-content-center flex-wrap mb-5">
-                            {skillsSection.softwareSkills.map((skill) => {
+                        <div className="mb-5">
+                            <h4>Languages</h4>
+                            {skillsSection.languages.map((skill) => {
                                 return <Fragment key={skill.skillName}>
-                                    <div className="icon icon-lg icon-shape shadow rounded-circle mb-5" id={skill.skillName}>
+                                    <div className="icon icon-lg icon-shape shadow rounded-circle mb-5 mx-1" id={skill.skillName}>
                                         <span className="iconify" data-icon={skill.fontAwesomeClassname} data-inline="false"></span>
                                     </div>
                                     <UncontrolledTooltip
@@ -39,13 +40,51 @@ const Skills = () => {
                                     </UncontrolledTooltip>
                                 </Fragment>
                             })}
-                        </div>
-                        <div>
-                            {
-                                skillsSection.skills.map(skill => {
-                                    return <p key={skill}>{skill}</p>
-                                })
-                            }
+                            <h4>Frontend</h4>
+                            {skillsSection.frontendSkills.map((skill) => {
+                                return <Fragment key={skill.skillName}>
+                                    <div className="icon icon-lg icon-shape shadow rounded-circle mb-5 mx-1" id={skill.skillName}>
+                                        <span className="iconify" data-icon={skill.fontAwesomeClassname} data-inline="false"></span>
+                                    </div>
+                                    <UncontrolledTooltip
+                                        delay={0}
+                                        placement="bottom"
+                                        target={skill.skillName}
+                                    >
+                                        {skill.skillName}
+                                    </UncontrolledTooltip>
+                                </Fragment>
+                            })}
+                            <h4>Backend, APIs and Databases</h4>
+                            {skillsSection.backendSkills.map((skill) => {
+                                return <Fragment key={skill.skillName}>
+                                    <div className="icon icon-lg icon-shape shadow rounded-circle mb-5 mx-1" id={skill.skillName}>
+                                        <span className="iconify" data-icon={skill.fontAwesomeClassname} data-inline="false"></span>
+                                    </div>
+                                    <UncontrolledTooltip
+                                        delay={0}
+                                        placement="bottom"
+                                        target={skill.skillName}
+                                    >
+                                        {skill.skillName}
+                                    </UncontrolledTooltip>
+                                </Fragment>
+                            })}
+                            <h4>Version control</h4>
+                            {skillsSection.versionControlSkills.map((skill) => {
+                                return <Fragment key={skill.skillName}>
+                                    <div className="icon icon-lg icon-shape shadow rounded-circle mb-5 mx-1" id={skill.skillName}>
+                                        <span className="iconify" data-icon={skill.fontAwesomeClassname} data-inline="false"></span>
+                                    </div>
+                                    <UncontrolledTooltip
+                                        delay={0}
+                                        placement="bottom"
+                                        target={skill.skillName}
+                                    >
+                                        {skill.skillName}
+                                    </UncontrolledTooltip>
+                                </Fragment>
+                            })}
                         </div>
                     </Col>
                 </Row>

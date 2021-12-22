@@ -27,7 +27,7 @@ export const contact = {
 export const socialLinks = {
     "github": "https://github.com/LucasAlonso11800",
     "linkedin": "https://www.linkedin.com/in/lucas-alonso-47a2ba20a/",
-    "gmail": "mailto:lucasalonso11800@gmail.com"
+    "gmail": "https://mail.google.com/mail/?view=cm&fs=1&to=lucasalonso11800@gmail.com&su=Hi, Lucas"
 }
 
 export const skillsSection = {
@@ -50,7 +50,7 @@ export const skillsSection = {
         },
         {
             skillName: 'TypeScript',
-            fontAwesomeClassname: 'vscode-icons:file-type-typescript',
+            fontAwesomeClassname: 'logos:typescript-icon',
         },
     ],
     frontendSkills: [
@@ -74,11 +74,19 @@ export const skillsSection = {
             skillName: 'NextJS',
             fontAwesomeClassname: 'vscode-icons:file-type-next',
         },
+        {
+            skillName: 'Apollo',
+            fontAwesomeClassname: 'file-icons:apollo',
+        },
     ],
     backendSkills: [
         {
             skillName: 'NodeJS',
             fontAwesomeClassname: 'logos:nodejs-icon',
+        },
+        {
+            skillName: 'Express',
+            fontAwesomeClassname: 'simple-icons:express',
         },
         {
             skillName: 'GraphQL',
@@ -94,14 +102,22 @@ export const skillsSection = {
         },
         {
             skillName: 'MySQL',
-            fontAwesomeClassname: 'vscode-icons:file-type-sql',
+            fontAwesomeClassname: 'logos:mysql',
         },
     ],
-    versionControlSkills: [
+    versionControlAndTestingSkills: [
         {
             skillName: 'git',
             fontAwesomeClassname: 'logos:git-icon',
         },
+        {
+            skillName: 'Jest',
+            fontAwesomeClassname: 'vscode-icons:file-type-jest'
+        },
+        {
+            skillName: 'Cypress',
+            fontAwesomeClassname: 'vscode-icons:file-type-cypress'
+        }
     ],
 
     softwareSkills: [
@@ -183,7 +199,7 @@ export const experience = [
 export const projects = [
     {
         name: "Social Media",
-        desc: "My first big application using Typescript and MySQL. Based freely on Twitter, the users can create accounts, post what they're thinking, comment on posts, like each others posts and comments and upload their profile names and images.",
+        desc: "My first big application using Typescript, GraphQL and MySQL. Based freely on Twitter, the users can create accounts, post what they're thinking, comment on posts, like each others posts and comments and upload their profile names and images. Tested with Cypress",
         img: SocialMedia,
         link: {
             name: "Live Project",

@@ -6,13 +6,13 @@ import Tennis from './assets/img/projects/Tennis.png';
 import Covid from './assets/img/projects/Covid.png';
 import Taylor from './assets/img/projects/Taylor.png';
 import ArmaTuEquipo from './assets/img/projects/Arma-tu-equipo.png';
-import Minesweeper from './assets/img/projects/Minesweeper.png';
+import Blog from './assets/img/projects/Blog.png';
 import SocialMedia from './assets/img/projects/Social-media.png';
 
 export const greetings = {
     "name": "Lucas Alonso",
     "title": "Hi everyone, I'm Lucas",
-    "description": "I'm a self-taught Full-Stack Developer who works everyday to become a better programmer. I've been able to learn a lot a different technologies that have given me jobs and let me create personal projects around my things of my interest",
+    "description": "I'm a self-taught Full-Stack Developer whose strengths are problem solving, logical thinking and fast learning. I'm experienced on team work and I give my best each day to slowly but surely improve as a developer and keep growing in my professional career.",
     "resumeLink": "/"
 }
 
@@ -190,24 +190,25 @@ export const experience = [
     {
         company: 'Airata',
         img: Hooli,
-        role: 'React Developer',
+        role: 'Full Stack Developer',
         date: 'Juni 2021 - Current',
-        desc: "I build user interfaces that connect and interact with the database for internal management of the Hooli application. I also periodically have tasks with Node and MySQL."
+        desc: "I build user interfaces for internal database management with React and also convert different designs into responsive websites with React and NextJS. \n I also work periodically in the backend with Node and write and maintain Stored Procedures with MySQL."
     }
 ];
 
 export const projects = [
     {
-        name: "Social Media",
-        desc: "My first big application using Typescript, GraphQL and MySQL. Based freely on Twitter, the users can create accounts, post what they're thinking, comment on posts, like each others posts and comments and upload their profile names and images. Tested with Cypress",
-        img: SocialMedia,
+        name: "New York City Blog",
+        desc: "One of my life dreams is to visit New York City, moved by that dream I created this app. This CMS allows writers to create articles about the Big Apple and admins to control which articles are published and to control the general aspects of the page, managing images and texts for different sections of the layout and the categories in which articles fall into. Readers can search articles by title, by category and also leave comments. I created this app with Typescript, NextJS, GrahQL, Apollo, MySQL and CSS Modules.",
+        api: "Its design and content belong entirely to Tracy Kaler's blog",
+        img: Blog,
         link: {
             name: "Live Project",
-            url: "https://lucas-alonso-social-media-app.netlify.app/"
+            url: "https://nyc-blog.herokuapp.com/"
         },
         git: {
             name: "GitHub Repository",
-            url: "https://github.com/LucasAlonso11800/Social-media-app"
+            url: "https://github.com/LucasAlonso11800/new-york-blog"
         }
     },
     {
@@ -225,6 +226,19 @@ export const projects = [
         }
     },
     {
+        name: "Social Media",
+        desc: "My first big application using Typescript, GraphQL and MySQL. Based freely on Twitter, the users can create accounts, post what they're thinking, comment on posts, like each others posts and comments and upload their profile names and images. Tested with Cypress",
+        img: SocialMedia,
+        link: {
+            name: "Live Project",
+            url: "https://lucas-alonso-social-media-app.netlify.app/"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Social-media-app"
+        }
+    },
+    {
         name: "Covid Tracker",
         desc: "This React application displays charts with the most recent info about the pandemic. The design was made with Material-UI and the charts with the library Charts.js.",
         api: "Featuring Narrativa's COVID-19 API",
@@ -236,19 +250,6 @@ export const projects = [
         git: {
             name: "GitHub Repository",
             url: "https://github.com/LucasAlonso11800/Covid-tracker"
-        }
-    },
-    {
-        name: "Minesweeper",
-        desc: "The classic Minesweeper game written with Typescript and Redux. Pick a difficulty and try to make it into the fastest players.",
-        img: Minesweeper,
-        link: {
-            name: "Live Project",
-            url: "https://lucasalonso-minesweeper.netlify.app/"
-        },
-        git: {
-            name: "GitHub Repository",
-            url: "https://github.com/LucasAlonso11800/Redux-Minesweeper"
         }
     },
     {

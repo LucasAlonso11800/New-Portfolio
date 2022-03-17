@@ -1,6 +1,7 @@
 import emoji from 'react-easy-emoji';
 
 import Hooli from './assets/img/Hooli.png';
+import Upwork from './assets/img/upwork.png';
 
 import Tennis from './assets/img/projects/Tennis.png';
 import Covid from './assets/img/projects/Covid.png';
@@ -191,8 +192,15 @@ export const experience = [
         company: 'Airata',
         img: Hooli,
         role: 'Full Stack Developer',
-        date: 'Juni 2021 - Current',
+        date: 'June 2021 - Current',
         desc: "I build user interfaces for internal database management with React and also convert different designs into responsive websites with React and NextJS. \n I also work periodically in the backend with Node and write and maintain Stored Procedures with MySQL."
+    },
+    {
+        company: 'Freelancing',
+        img: Upwork,
+        role: 'Frontend Developer',
+        date: 'February 2022 - Current',
+        desc: "As a freelancer I've worked in several projects of different sizes for clients around the world, primarily with React in the frontend, focusing on getting pixel perfect, responsive web apps from Figma, Adobe or Zeplin designs."
     }
 ];
 

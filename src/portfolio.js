@@ -64,17 +64,29 @@ export const skillsSection = {
             fontAwesomeClassname: 'vscode-icons:file-type-css',
         },
         {
-            skillName: 'React',
-            fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+            skillName: 'SASS',
+            fontAwesomeClassname: 'logos:sass',
         },
         {
-            skillName: 'Redux',
-            fontAwesomeClassname: 'logos:redux',
+            skillName: 'React',
+            fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
         },
         {
             skillName: 'NextJS',
             fontAwesomeClassname: 'vscode-icons:file-type-next',
         },
+        // {
+        //     skillName: 'Redux',
+        //     fontAwesomeClassname: 'logos:redux',
+        // },
+        // {
+        //     skillName: 'Vue',
+        //     fontAwesomeClassname: 'logos:vue',
+        // },
+        // {
+        //     skillName: 'Nuxt',
+        //     fontAwesomeClassname: 'logos:nuxt',
+        // },
         {
             skillName: 'Apollo',
             fontAwesomeClassname: 'file-icons:apollo',
@@ -120,69 +132,6 @@ export const skillsSection = {
             fontAwesomeClassname: 'vscode-icons:file-type-cypress'
         }
     ],
-
-    softwareSkills: [
-        {
-            skillName: 'HTML5',
-            fontAwesomeClassname: 'vscode-icons:file-type-html',
-        },
-        {
-            skillName: 'CSS3',
-            fontAwesomeClassname: 'vscode-icons:file-type-css',
-        },
-        {
-            skillName: 'JavaScript',
-            fontAwesomeClassname: 'logos:javascript',
-        },
-        {
-            skillName: 'TypeScript',
-            fontAwesomeClassname: 'vscode-icons:file-type-typescript',
-        },
-        {
-            skillName: 'React',
-            fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
-        },
-        {
-            skillName: 'Redux',
-            fontAwesomeClassname: 'logos:redux',
-        },
-        {
-            skillName: 'NextJS',
-            fontAwesomeClassname: 'vscode-icons:file-type-next',
-        },
-        {
-            skillName: 'NodeJS',
-            fontAwesomeClassname: 'logos:nodejs-icon',
-        },
-        {
-            skillName: 'MongoDB',
-            fontAwesomeClassname: 'vscode-icons:file-type-mongo',
-        },
-        {
-            skillName: 'MySQL',
-            fontAwesomeClassname: 'vscode-icons:file-type-sql',
-        },
-        {
-            skillName: 'GraphQL',
-            fontAwesomeClassname: 'vscode-icons:file-type-graphql'
-        },
-        {
-            skillName: 'REST',
-            fontAwesomeClassname: 'vscode-icons:file-type-rest'
-        },
-        {
-            skillName: 'npm',
-            fontAwesomeClassname: 'vscode-icons:file-type-npm',
-        },
-        {
-            skillName: 'git',
-            fontAwesomeClassname: 'logos:git-icon',
-        },
-        {
-            skillName: 'VSCode',
-            fontAwesomeClassname: 'vscode-icons:file-type-vscode',
-        },
-    ],
 }
 
 //EDUCATION
@@ -226,7 +175,7 @@ export const projects = [
         img: Tennis,
         link: {
             name: "Live Project",
-            url: "https://tennis-world-nextjs.vercel.app/"
+            url: "https://tennis-world-nextjs-zeta.vercel.app/"
         },
         git: {
             name: "GitHub Repository",

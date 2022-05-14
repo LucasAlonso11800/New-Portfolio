@@ -26,7 +26,10 @@ const ProjectsCard = ({ data, index }) => {
                                         {data.desc}
                                     </p>
                                     <p className="description">
-                                        {data.api}
+                                        {data.desc2}
+                                    </p>
+                                    <p className="description">
+                                        {data.desc3}
                                     </p>
                                     <div>
                                         <Button

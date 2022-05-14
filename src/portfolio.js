@@ -4,16 +4,16 @@ import Hooli from './assets/img/Hooli.png';
 import Upwork from './assets/img/upwork.png';
 
 import Tennis from './assets/img/projects/Tennis.png';
-import Covid from './assets/img/projects/Covid.png';
-import Taylor from './assets/img/projects/Taylor.png';
+import BackgroundGenerator from './assets/img/projects/MosaicBackground.png';
 import ArmaTuEquipo from './assets/img/projects/Arma-tu-equipo.png';
 import Blog from './assets/img/projects/Blog.png';
 import SocialMedia from './assets/img/projects/Social-media.png';
+import Monalisa from './assets/img/projects/Monalisa.png';
 
 export const greetings = {
     "name": "Lucas Alonso",
     "title": "Hi everyone, I'm Lucas",
-    "description": "I'm a self-taught Full-Stack Developer whose strengths are problem solving, logical thinking and fast learning. I'm experienced on team work and I give my best each day to slowly but surely improve as a developer and keep growing in my professional career.",
+    "description": "I'm a self-taught Full-Stack Developer whose strengths are problem solving, logical thinking and fast learning. I'm experienced on team work and I give my best each day to improve as a software developer and keep growing on my professional career.",
     "resumeLink": "/"
 }
 
@@ -56,10 +56,6 @@ export const skillsSection = {
     ],
     frontendSkills: [
         {
-            skillName: 'HTML5',
-            fontAwesomeClassname: 'vscode-icons:file-type-html',
-        },
-        {
             skillName: 'CSS3',
             fontAwesomeClassname: 'vscode-icons:file-type-css',
         },
@@ -78,14 +74,6 @@ export const skillsSection = {
         // {
         //     skillName: 'Redux',
         //     fontAwesomeClassname: 'logos:redux',
-        // },
-        // {
-        //     skillName: 'Vue',
-        //     fontAwesomeClassname: 'logos:vue',
-        // },
-        // {
-        //     skillName: 'Nuxt',
-        //     fontAwesomeClassname: 'logos:nuxt',
         // },
         {
             skillName: 'Apollo',
@@ -149,15 +137,32 @@ export const experience = [
         img: Upwork,
         role: 'Frontend Developer',
         date: 'February 2022 - Current',
-        desc: "As a freelancer I've worked in several projects of different sizes for clients around the world, primarily with React in the frontend, focusing on getting pixel perfect, responsive web apps from Figma, Adobe or Zeplin designs."
+        desc: "As a freelancer I've worked in several projects of different sizes for clients around the world, primarily with React and Next in the frontend, focusing on getting pixel perfect, responsive web apps from Figma, Adobe or Zeplin designs."
     }
 ];
 
+// Projects
+
 export const projects = [
     {
+        name: "Monalisa Hotel",
+        desc: "Inspired by a design I found online, I built a website for a fake 5-stars luxurious hotel set in Amalfi, Italy. A place I'd like to visit one day. The user can find information about all the different types of rooms, read testimonials about the hotel and finally book a room.",
+        desc2: "I built this project with NextJS, Typescript, SASS and MySQL. Tested with Jest and Cypress.",
+        img: Monalisa,
+        link: {
+            name: "Live Project",
+            url: "https://lucas-alonso-monalisa-hotel.herokuapp.com/"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Monalisa-Hotel"
+        }
+    },
+    {
         name: "New York City Blog",
-        desc: "One of my life dreams is to visit New York City, moved by that dream I created this app. This CMS allows writers to create articles about the Big Apple and admins to control which articles are published and to control the general aspects of the page, managing images and texts for different sections of the layout and the categories in which articles fall into. Readers can search articles by title, by category and also leave comments. I created this app with Typescript, NextJS, GrahQL, Apollo, MySQL and CSS Modules.",
-        api: "Its design and content belong entirely to Tracy Kaler's blog",
+        desc: "One of my life dreams is to visit New York City, moved by that dream I created this app. This CMS allows writers to create articles about the Big Apple and admins to control which articles are published and to control the general aspects of the page, managing images and texts for different sections of the layout and the categories in which articles fall into. Readers can search articles by title, by category and also leave comments.",
+        desc2: "I created this app with Typescript, NextJS, GraphQL, Apollo, MySQL and CSS Modules. Tested with Cypress",
+        desc3: "Its design and content belong entirely to Tracy Kaler's blog",
         img: Blog,
         link: {
             name: "Live Project",
@@ -170,8 +175,9 @@ export const projects = [
     },
     {
         name: "Tennis World",
-        desc: "Tennis World is an application where the user can find everything related to this beautiful sport. From rankings to tournaments and the most recent news. I had originally built this app with React and a backend of Node, Express and MongoDB but later on I decided to migrate it to Typescript and NextJS.",
-        api: "Featuring Tennis Live Data API and News API",
+        desc: "Tennis World is an application where the user can find everything related to this beautiful sport. From rankings to tournaments and the most recent news.",
+        desc2: "I had originally built this app with React and a backend of Node, Express and MongoDB but later on I decided to migrate it to Typescript and NextJS.",
+        desc3: "Featuring Tennis Live Data API and News API",
         img: Tennis,
         link: {
             name: "Live Project",
@@ -184,7 +190,8 @@ export const projects = [
     },
     {
         name: "Social Media",
-        desc: "My first big application using Typescript, GraphQL and MySQL. Based freely on Twitter, the users can create accounts, post what they're thinking, comment on posts, like each others posts and comments and upload their profile names and images. Tested with Cypress",
+        desc: "Based freely on Twitter, the users can create accounts, post what they're thinking, comment on posts, like each others posts and comments and upload their profile names and images.",
+        desc2: "My first application combining React with Typescript, GraphQL and MySQL. Tested with Cypress.",
         img: SocialMedia,
         link: {
             name: "Live Project",
@@ -196,35 +203,9 @@ export const projects = [
         }
     },
     {
-        name: "Covid Tracker",
-        desc: "This React application displays charts with the most recent info about the pandemic. The design was made with Material-UI and the charts with the library Charts.js.",
-        api: "Featuring Narrativa's COVID-19 API",
-        img: Covid,
-        link: {
-            name: "Live Project",
-            url: "https://lucasalonso-covid-tracker.netlify.app"
-        },
-        git: {
-            name: "GitHub Repository",
-            url: "https://github.com/LucasAlonso11800/Covid-tracker"
-        }
-    },
-    {
-        name: "Taylor Swift Survey",
-        desc: "A MERN Stack and Material-UI application. Here the users must answer 5 personal opinion questions about each album of Taylor Swift's carrer. More than 500 people from all over the world took part of the survey via Reddit",
-        img: Taylor,
-        link: {
-            name: "Live Project",
-            url: "https://taylor-survey.netlify.app/"
-        },
-        git: {
-            name: "GitHub Repository",
-            url: "https://github.com/LucasAlonso11800/Taylor-survey"
-        }
-    },
-    {
         name: "Arma tu equipo",
-        desc: "This React application lets the user play to be a football coach and share his/her ideal formation of the Argentinian National Team, River Plate and Boca Jrs.",
+        desc: "This  application lets the user play to be a football coach and share his/her ideal formation of the Argentinian National Team, River Plate and Boca Jrs.",
+        desc2: "Built with React and tested with Jest",
         img: ArmaTuEquipo,
         link: {
             name: "Live Project",
@@ -233,6 +214,20 @@ export const projects = [
         git: {
             name: "GitHub Repository",
             url: "https://github.com/LucasAlonso11800/Arma-tu-equipo"
+        }
+    },
+    {
+        name: "Background generator",
+        desc: "A simple mosaic generator where the user picks the tonality, sees the result and later can download it.",
+        desc2: "I built this one with just HTML, CSS and Vanilla JavaScript. Tested with Jest",
+        img: BackgroundGenerator,
+        link: {
+            name: "Live Project",
+            url: "https://mosaic-background-generator.netlify.app"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/Mosaic-background-generator"
         }
     }
 ];

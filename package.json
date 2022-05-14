@@ -15,7 +15,7 @@
   "homepage": "",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && gulp licenses && netlify deploy --prod",
+    "build": "react-scripts build  && netlify deploy --prod",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -176,7 +176,7 @@ export const projects = [
     {
         name: "Tennis World",
         desc: "Tennis World is an application where the user can find everything related to this beautiful sport. From rankings to tournaments and the most recent news.",
-        desc2: "I had originally built this app with React and a backend of Node, Express and MongoDB but later on I decided to migrate it to Typescript and NextJS.",
+        desc2: "I had originally built this app with React and a backend of Node, Express and MongoDB but later on I decided to migrate it to Typescript and NextJS. Tested with Cypress",
         desc3: "Featuring Tennis Live Data API and News API",
         img: Tennis,
         link: {

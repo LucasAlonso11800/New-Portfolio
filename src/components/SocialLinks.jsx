@@ -2,9 +2,16 @@ import React from 'react';
 
 import { Button } from "reactstrap";
 
-import { socialLinks } from "../portfolio";
+import { greetings, socialLinks } from "../portfolio";
 
 const SocialLinks = () => {
+    const handleClick = () => {
+        const link = document.createElement("a");
+        link.download = 'Lucas Alonso Resume.pdf';
+        link.href = greetings.resumeLink;
+        link.click();
+    };
+
     return (
         <>
             <div className="btn-wrapper text-lg">
@@ -37,6 +44,14 @@ const SocialLinks = () => {
                     <span className="btn-inner--icon">
                         <i className="fa fa-google" />
                     </span>
+                </Button>
+            </div>
+            <div class="btn-wrapper my-4">
+                <Button class="btn-white btn-icon mb-3 mb-sm-0 ml-1 btn btn-default" onClick={handleClick}>
+                    <span class="btn-inner--icon mr-1">
+                        <i class="fa fa-file"></i>
+                    </span>
+                    <span class="btn-inner--text">See My Resume</span>
                 </Button>
             </div>
         </>

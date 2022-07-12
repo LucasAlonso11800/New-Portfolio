@@ -9,12 +9,13 @@ import ArmaTuEquipo from './assets/img/projects/Arma-tu-equipo.png';
 import Blog from './assets/img/projects/Blog.png';
 import SocialMedia from './assets/img/projects/Social-media.png';
 import Monalisa from './assets/img/projects/Monalisa.png';
+import Covid from './assets/img/projects/Covid.png';
 
 export const greetings = {
     "name": "Lucas Alonso",
     "title": "Hi everyone, I'm Lucas",
-    "description": "I'm a self-taught Full-Stack Developer whose strengths are problem solving, logical thinking and fast learning. I'm experienced on team work and I give my best each day to improve as a software developer and keep growing on my professional career.",
-    "resumeLink": "/"
+    "description": "I'm a self-taught Full-Stack Developer whose main strengths are Javascript, Typescript, React and NextJS. I'm experienced on team work and I work everyday to find the best solutions to the problems I encounter, to improve as a software developer and to keep growing on my professional career.",
+    "resumeLink": "/lucas-alonso-resume.pdf"
 }
 
 export const openSource = {
@@ -71,10 +72,10 @@ export const skillsSection = {
             skillName: 'NextJS',
             fontAwesomeClassname: 'vscode-icons:file-type-next',
         },
-        // {
-        //     skillName: 'Redux',
-        //     fontAwesomeClassname: 'logos:redux',
-        // },
+        {
+            skillName: 'Redux',
+            fontAwesomeClassname: 'logos:redux',
+        },
         {
             skillName: 'Apollo',
             fontAwesomeClassname: 'file-icons:apollo',
@@ -114,6 +115,10 @@ export const skillsSection = {
         {
             skillName: 'Jest',
             fontAwesomeClassname: 'vscode-icons:file-type-jest'
+        },
+        {
+            skillName: 'RTL',
+            fontAwesomeClassname: 'logos:testing-library'
         },
         {
             skillName: 'Cypress',
@@ -200,6 +205,20 @@ export const projects = [
         git: {
             name: "GitHub Repository",
             url: "https://github.com/LucasAlonso11800/Social-media-app"
+        }
+    },
+    {
+        name: "Covid Tracker",
+        desc: "When I first started to learn React I built an app to follow statistics of the pandemic, later on I decided to rebuild it with Typescript and a new design.",
+        desc2: "Built with React, Typescript, SASS and Redux Toolkit. Tested with Jest and React Testing Library",
+        img: Covid,
+        link: {
+            name: "Live Project",
+            url: "https://lucas-alonso-covid-tracker.netlify.app/"
+        },
+        git: {
+            name: "GitHub Repository",
+            url: "https://github.com/LucasAlonso11800/new-covid-tracker"
         }
     },
     {

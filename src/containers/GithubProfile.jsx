@@ -13,7 +13,7 @@ const GithubProfile = () => {
     }
     useEffect(() => {
         getProfileData()
-    });
+    }, []);
     return ( 
         <Suspense fallback={<Loading />}>
            <GithubProfileCard prof={prof}/>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { greetings } from "../portfolio";
 import code from '../assets/lottie/coding.json';
 
@@ -15,10 +15,6 @@ import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "components/SocialLinks";
 
 const Greetings = () => {
-  useEffect(() => {
-    document.documentElement.scrollTop = 0;
-    document.scrollingElement.scrollTop = 0;
-  })
   return ( 
     <Fade top duration={1000} distance="40px">
         <main ref="main">

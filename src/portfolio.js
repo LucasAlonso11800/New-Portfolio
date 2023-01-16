@@ -1,7 +1,6 @@
-import emoji from 'react-easy-emoji';
-
 import Hooli from './assets/img/Hooli.png';
 import Upwork from './assets/img/upwork.png';
+import Wally from './assets/img/wally.png';
 
 import Tennis from './assets/img/projects/Tennis.png';
 import BackgroundGenerator from './assets/img/projects/MosaicBackground.png';
@@ -14,7 +13,7 @@ import Covid from './assets/img/projects/Covid.png';
 export const greetings = {
     "name": "Lucas Alonso",
     "title": "Hi everyone, I'm Lucas",
-    "description": "I'm a self-taught Full-Stack Developer whose main strengths are Javascript, Typescript, React and NextJS. I'm experienced on team work and I work everyday to find the best solutions to the problems I encounter, to improve as a software developer and to keep growing on my professional career.",
+    "description": "I'm a self-taught Full-Stack Developer whose main strengths are React, NodeJS and MySQL. I've been programming for almost 3 years and I keep working everyday to find the best solutions to the problems I encounter, to improve as a software developer and to keep growing on my professional career.",
     "resumeLink": "/lucas-alonso-resume.pdf"
 }
 
@@ -33,18 +32,8 @@ export const socialLinks = {
 }
 
 export const skillsSection = {
-    title: 'What do I do?',
-    subTitle: 'Put all my skills to work to create the best projects',
-    skills: [
-        emoji(
-            '⚡ Develop responsive User Interfaces for web applications'
-        ),
-        emoji('⚡ Power them with third party APIs or with my own backend designs'),
-        emoji(
-            '⚡ Landing page design, Responsive design, Animations, Database management'
-        ),
-    ],
-
+    title: 'My main skills',
+    // subTitle: 'Put all my skills to work to create the best projects',
     languages: [
         {
             skillName: 'JavaScript',
@@ -57,14 +46,6 @@ export const skillsSection = {
     ],
     frontendSkills: [
         {
-            skillName: 'CSS3',
-            fontAwesomeClassname: 'vscode-icons:file-type-css',
-        },
-        {
-            skillName: 'SASS',
-            fontAwesomeClassname: 'logos:sass',
-        },
-        {
             skillName: 'React',
             fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
         },
@@ -73,12 +54,12 @@ export const skillsSection = {
             fontAwesomeClassname: 'vscode-icons:file-type-next',
         },
         {
-            skillName: 'Redux',
-            fontAwesomeClassname: 'logos:redux',
+            skillName: 'Vue',
+            fontAwesomeClassname: 'vscode-icons:file-type-vue',
         },
         {
-            skillName: 'Apollo',
-            fontAwesomeClassname: 'file-icons:apollo',
+            skillName: 'Nuxt',
+            fontAwesomeClassname: 'vscode-icons:file-type-nuxt',
         },
     ],
     backendSkills: [
@@ -87,16 +68,8 @@ export const skillsSection = {
             fontAwesomeClassname: 'logos:nodejs-icon',
         },
         {
-            skillName: 'Express',
-            fontAwesomeClassname: 'simple-icons:express',
-        },
-        {
             skillName: 'GraphQL',
             fontAwesomeClassname: 'vscode-icons:file-type-graphql'
-        },
-        {
-            skillName: 'REST',
-            fontAwesomeClassname: 'vscode-icons:file-type-rest'
         },
         {
             skillName: 'MongoDB',
@@ -106,25 +79,7 @@ export const skillsSection = {
             skillName: 'MySQL',
             fontAwesomeClassname: 'logos:mysql',
         },
-    ],
-    versionControlAndTestingSkills: [
-        {
-            skillName: 'git',
-            fontAwesomeClassname: 'logos:git-icon',
-        },
-        {
-            skillName: 'Jest',
-            fontAwesomeClassname: 'vscode-icons:file-type-jest'
-        },
-        {
-            skillName: 'RTL',
-            fontAwesomeClassname: 'logos:testing-library'
-        },
-        {
-            skillName: 'Cypress',
-            fontAwesomeClassname: 'vscode-icons:file-type-cypress'
-        }
-    ],
+    ]
 }
 
 //EDUCATION
@@ -135,14 +90,33 @@ export const experience = [
         img: Hooli,
         role: 'Full Stack Developer',
         date: 'June 2021 - Current',
-        desc: "I build user interfaces for internal database management with React and also convert different designs into responsive websites with React and NextJS. \n I also work periodically in the backend with Node and write and maintain Stored Procedures with MySQL."
+        descBullets: ['Build web applications with React for different company areas like staff time control and accounting.', 
+        'Build microservices with Node.',
+        'Write and maintain MySQL stored procedures.',
+        'Build user interfaces for internal backoffice management with React.',
+        'Work alongside designers to translate Adobe XD projects into responsive websites with React and Next JS.']
+    },
+    {
+        company: 'Wally',
+        img: Wally,
+        role: 'Full stack Developer',
+        date: 'August 2022 - January 2023',
+        descBullets: [
+            "Build new features for the different web applications that make up the company's product.",
+            "Work alongside designers to translate Figma projects into responsive websites with Vue and NuxtJS.",
+            "Build REST endpoints with Node JS and the Nest framework, using MongoDB as the database."
+        ]
     },
     {
         company: 'Freelancing',
         img: Upwork,
         role: 'Frontend Developer',
         date: 'February 2022 - Current',
-        desc: "As a freelancer I've worked in several projects of different sizes for clients around the world, primarily with React and Next in the frontend, focusing on getting pixel perfect, responsive web apps from Figma, Adobe or Zeplin designs."
+        descBullets: [
+            "Work as a freelancer in several projects of different sizes for clients around the world, primarily with React, Next JS and TypeScript.", 
+            "Create pixel perfect, responsive web apps from Figma, Adobe XD, Adobe InDesign or Zeplin designs.", 
+            "Work on dashboards and landing pages."
+        ]
     }
 ];
 

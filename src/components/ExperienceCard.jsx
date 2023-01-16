@@ -30,7 +30,7 @@ const ExperienceCard = ({ data }) => {
     return (
         <Col lg="4">
             <Fade left duration={1000} distance="40px">
-                <Card style={{ flex: 1, height: '505px' }} className="shadow-lg--hover shadow border-0 text-center rounded">
+                <Card style={{ flex: 1 }} className="shadow-lg--hover shadow border-0 text-center rounded">
                     <CardHeader style={{ background: rgb(colorArrays) }} >
                         <h5 className="text-white">{data.company}</h5>
                     </CardHeader>
@@ -40,7 +40,7 @@ const ExperienceCard = ({ data }) => {
                         <CardSubtitle>{data.date}</CardSubtitle>
                         <CardText className="description my-3 text-left">
                             {data.desc}
-                            <ul>
+                            <ul className='px-4'>
                                 {
                                     data.descBullets ?
                                         data.descBullets.map((desc) => {

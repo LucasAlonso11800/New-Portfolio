@@ -130,7 +130,7 @@ export const projects = [
         img: Monalisa,
         link: {
             name: "Live Project",
-            url: "https://lucas-alonso-monalisa-hotel.herokuapp.com/"
+            url: "https://monalisa-hotel.vercel.app/"
         },
         git: {
             name: "GitHub Repository",
@@ -145,7 +145,7 @@ export const projects = [
         img: Blog,
         link: {
             name: "Live Project",
-            url: "https://nyc-blog.herokuapp.com/"
+            url: "https://new-york-blog.vercel.app/"
         },
         git: {
             name: "GitHub Repository",

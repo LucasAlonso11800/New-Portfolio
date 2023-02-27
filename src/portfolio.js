@@ -97,25 +97,15 @@ export const experience = [
         'Work alongside designers to translate Adobe XD projects into responsive websites with React and Next JS.']
     },
     {
-        company: 'Wally',
-        img: Wally,
-        role: 'Full stack Developer',
-        date: 'August 2022 - January 2023',
-        descBullets: [
-            "Build new features for the different web applications that make up the company's product.",
-            "Work alongside designers to translate Figma projects into responsive websites with Vue and NuxtJS.",
-            "Build REST endpoints with Node JS and the Nest framework, using MongoDB as the database."
-        ]
-    },
-    {
         company: 'Freelancing',
         img: Upwork,
-        role: 'Frontend Developer',
+        role: 'Full stack Developer',
         date: 'February 2022 - Current',
         descBullets: [
-            "Work as a freelancer in several projects of different sizes for clients around the world, primarily with React, Next JS and TypeScript.", 
+            "Work as a freelancer in several projects of different sizes for clients around the world, primarily with React, Next JS and TypeScript, but also with Vue and NuxtJS.", 
             "Create pixel perfect, responsive web apps from Figma, Adobe XD, Adobe InDesign or Zeplin designs.", 
-            "Work on dashboards and landing pages."
+            "Work on dashboards and landing pages.",
+            "Build REST endpoints with Node JS and the Nest framework, using MongoDB as the database."
         ]
     }
 ];

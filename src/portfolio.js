@@ -13,7 +13,7 @@ import Covid from './assets/img/projects/Covid.png';
 export const greetings = {
     "name": "Lucas Alonso",
     "title": "Hi everyone, I'm Lucas",
-    "description": "I'm a self-taught Full-Stack Developer whose main strengths are React, NodeJS and MySQL. I've been programming for almost 3 years and I keep working everyday to find the best solutions to the problems I encounter, to improve as a software developer and to keep growing on my professional career.",
+    "description": "I'm a self-taught Full-Stack Developer whose main strengths are React, NodeJS and MySQL. I've been programming since 2020 and I keep working everyday to find the best solutions to the problems I encounter, to improve as a software developer and to keep growing on my professional career.",
     "resumeLink": "/lucas-alonso-resume.pdf"
 }
 

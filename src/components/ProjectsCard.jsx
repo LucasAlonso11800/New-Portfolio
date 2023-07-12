@@ -58,6 +58,21 @@ const ProjectsCard = ({ data, index }) => {
                                                 {data.git.name}
                                             </span>
                                         </Button>
+                                        {data.git2 &&
+                                        <Button
+                                            className="btn-neutral btn-icon mb-4"
+                                            color="primary"
+                                            href={data.git2.url}
+                                            target="_blank"
+                                        >
+                                            <span className="btn-inner--icon">
+                                                <i className="fa fa-arrow-right mr-2" />
+                                            </span>
+                                            <span className="nav-link-inner--text ml-1">
+                                                {data.git2.name}
+                                            </span>
+                                        </Button>
+                                        }
                                     </div>
                                 </div>
                             </div>

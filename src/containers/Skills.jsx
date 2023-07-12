@@ -91,6 +91,30 @@ const Skills = () => {
                   </Fragment>
                 );
               })}
+              <br />
+              {skillsSection.cloudSkills.map((skill) => {
+                return (
+                  <Fragment key={skill.skillName}>
+                    <div
+                      className="icon icon-lg icon-shape shadow rounded-circle mb-5 mx-1"
+                      id={skill.skillName}
+                    >
+                      <span
+                        className="iconify"
+                        data-icon={skill.fontAwesomeClassname}
+                        data-inline="false"
+                      ></span>
+                    </div>
+                    <UncontrolledTooltip
+                      delay={0}
+                      placement="bottom"
+                      target={skill.skillName}
+                    >
+                      {skill.skillName}
+                    </UncontrolledTooltip>
+                  </Fragment>
+                );
+              })}
             </div>
           </Col>
         </Row>

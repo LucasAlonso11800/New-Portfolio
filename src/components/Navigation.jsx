@@ -31,9 +31,9 @@ const Navigation = () => {
 
     return (
         <>
-            <header className="header-global">
+            <header className="header-global bg-gradient-info">
                 <Navbar
-                    className="navbar-main navbar-transparent navbar-light headroom"
+                    className="navbar-main navbar-transparent navbar-light headroom bg-gradient-info"
                     expand="lg"
                     id="navbar-main"
                 >

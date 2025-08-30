@@ -19,13 +19,13 @@ const GithubProfileCard = ({prof}) => {
                       <img src={prof.avatar_url} style={{width: "200px"}} alt="" className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"/>
                     </Col>
                     <Col lg="8" className="order-lg-1">
-                      <h2 className="text-white">
-                        Reach Out to me!
+                      <h2 className="text-white font-weight-600">
+                        Get in touch
                       </h2>
-                      <p className="lead text-white mt-3">
-                          Do you want to discuss a project or just want to say hi? <br />My inbox is open for all
+                      <p className="lead text-white mt-2">
+                        Open to discussing projects, opportunities, or just a friendly hello.
                       </p>
-                      <p className="text-white mt-3">
+                      <p className="text-white mt-2">
                           {prof.bio}
                       </p>
                         <SocialLinks />

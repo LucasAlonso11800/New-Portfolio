@@ -4,13 +4,22 @@ import { Button } from "reactstrap";
 
 import { greetings, socialLinks } from "../portfolio";
 
-const SocialLinks = () => {
+const SocialLinks = ({ isHero = false }) => {
     const handleClick = () => {
         const link = document.createElement("a");
         link.download = 'Lucas Alonso Resume.pdf';
         link.href = greetings.resumeLink;
         link.click();
     };
+
+    if (isHero) return (
+        <button className='btn bg-info' onClick={handleClick}>
+            <span class="btn-inner--icon mr-1">
+                <i class="fa fa-file text-white"></i>
+            </span>
+            <span class="btn-inner--text text-white">Check My Resume</span>
+        </button>
+    )
 
     return (
         <>
@@ -47,12 +56,12 @@ const SocialLinks = () => {
                 </Button>
             </div>
             <div class="btn-wrapper my-4">
-                <Button class="btn-white btn-icon mb-3 mb-sm-0 ml-1 btn btn-default" onClick={handleClick}>
+                <button className='btn bg-white' onClick={handleClick}>
                     <span class="btn-inner--icon mr-1">
-                        <i class="fa fa-file"></i>
+                        <i class="fa fa-file text-black"></i>
                     </span>
-                    <span class="btn-inner--text">See My Resume</span>
-                </Button>
+                    <span class="btn-inner--text text-black">Check My Resume</span>
+                </button>
             </div>
         </>
     );

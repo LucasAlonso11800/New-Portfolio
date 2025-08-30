@@ -6,9 +6,9 @@ import Greetings from "./containers/Greetings";
 import Skills from "./containers/Skills";
 // import Education from "./containers/Education";
 import Experience from './containers/Experience';
-import Projects from './containers/Projects';
+// import Projects from './containers/Projects';
 import GithubProfile from './containers/GithubProfile';
-
+// Teal - #0f766e
 const App = () => {
     return (
         <BrowserRouter>
@@ -17,10 +17,10 @@ const App = () => {
                     <>
                         <Navigation />
                         <Greetings />
+                        <Experience />
                         <Skills />
                         {/* <Education /> */}
-                        <Experience />
-                        <Projects />
+                        {/* <Projects /> */}
                         <GithubProfile />
                     </>
                 )} />

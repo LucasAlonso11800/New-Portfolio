@@ -3,6 +3,7 @@ import { experience } from "../portfolio";
 import {
     Container,
     Row,
+    Col,
 } from "reactstrap";
 
 import { Fade } from 'react-reveal';
@@ -11,43 +12,30 @@ import ExperienceCard from "../components/ExperienceCard";
 
 const Experience = () => {
     return (
-        <section className="section section-lg bg-gradient-info pb-250">
+        <section className="section section-lg bg-gradient-info">
             <Container>
                 <Fade left duration={1000} distance="40px">
-                    <div className="d-flex p-4">
+                    <div className="d-flex mb-4">
                         <div>
-                            <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                                <i className="ni ni-briefcase-24 text-info" />
+                            <div className="icon icon-lg icon-shape shadow rounded-circle bg-white">
+                                <i className="ni ni-briefcase-24 text-teal" />
                             </div>
                         </div>
                         <div className="pl-4">
                             <h4 className="display-3 text-white">Experience</h4>
                         </div>
                     </div>
-                    <Row className="row-grid ">
-                        {
-                            experience.map(data => {
-                                return <ExperienceCard data={data} />
-                            })
-                        }
+                    <Row className="justify-content-start">
+                        <Col lg="8">
+                            {
+                                experience.map((data, index) => {
+                                    return <ExperienceCard key={index} data={data} />
+                                })
+                            }
+                        </Col>
                     </Row>
                 </Fade>
             </Container>
-            <div className="separator separator-bottom separator-skew">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="none"
-                    version="1.1"
-                    viewBox="0 0 2560 100"
-                    x="0"
-                    y="0"
-                >
-                    <polygon
-                        className="fill-white"
-                        points="2560 0 2560 100 0 100"
-                    />
-                </svg>
-            </div>
         </section>
     );
 }
